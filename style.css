@@ -1,6 +1,7 @@
 :root{
     --main-white: whitesmoke;
     --main-yellow: #edc60f;
+    --main-black: black;
 }
 html, body{
     margin: 0px;
@@ -12,8 +13,6 @@ html, body{
     background-color: black;
     color: whitesmoke;
     flex-direction: column;
-    /* justify-content: space-around; */
-    /* align-items: center; */
 }
 .wrapper{
     display: flex;
@@ -81,4 +80,55 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.front-top-info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-image: url("./img/metro-exodus-enhanced.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,.6);
+    width: 550px;
+    height: 400px;
+    margin-left: 75px;
+    padding: 20px 45px;
+
+}
+.card-header{
+    border-bottom: 2px solid var(--main-yellow);
+    font-size: 25px;
+    padding: 0px;
+}
+.btn-card{
+    cursor: pointer;
+    background-color: var(--main-yellow);
+    color: var(--main-white);
+    border: 2px solid var(--main-yellow);
+    text-align: center;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+.btn-card:hover{
+    background: rgba(0,0,0,.6);
+    transition: 0.3s;
+}
+.card-btn-wrapp{
+    padding-top: 25px;
+}
+.card-header h1{
+    margin-bottom: 10px;
+    font-family: 'Cinzel', serif;
+}
+.card p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
