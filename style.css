@@ -132,3 +132,22 @@ html, body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+.second-wrapper{
+    display: flex;
+    padding: 100px 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.second-wrapper h1{
+    color: var(--main-yellow);
+    font-family: 'Cinzel', serif;
+    letter-spacing: 7px;
+}
+.second-wrapper p{
+    color: var(--main-white);
+    font-family: 'Montserrat', sans-serif;
+    width: 35%;
+    font-weight: 600;
+}
