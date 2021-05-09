@@ -10,8 +10,8 @@ html, body{
     height: 100vh;
     text-decoration: none;
     display: flex;
-    background-color: black;
-    color: whitesmoke;
+    background-color: var(--main-black);
+    color: var(--main-white);
     flex-direction: column;
 }
 .wrapper{
@@ -34,7 +34,7 @@ html, body{
 }
 .nav-menu{
     text-decoration: none;
-    color: whitesmoke;
+    color: var(--main-white);
     margin: 0 10px;
     font-weight: 700;
 }
@@ -42,7 +42,7 @@ html, body{
     color: var(--main-yellow);
 }
 .nav-icons{
-    color: whitesmoke;
+    color: var(--main-white);
     display: flex;
     margin: 0 10px;
     font-size: 23px;
@@ -55,7 +55,7 @@ html, body{
     color: var(--main-white);
     border: 2px solid var(--main-yellow);
     text-align: center;
-    background-color: black;
+    background-color: var(--main-black);
     padding: 10px 15px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
