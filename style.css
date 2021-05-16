@@ -17,6 +17,7 @@ html, body{
 .wrapper{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .navigation-menu{
     font-family: 'Montserrat', sans-serif;
@@ -25,7 +26,7 @@ html, body{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    margin: 20px;
+    margin: 15px;
 }
 .nav-img-logo img{
     width: 123px;
@@ -86,7 +87,7 @@ html, body{
     align-items: center;
     width: 100%;
     height: 1000px;
-    background-image: url("./img/metro-exodus-enhanced.jpg");
+    background-image: url("./img/original-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -150,4 +151,146 @@ html, body{
     font-family: 'Montserrat', sans-serif;
     width: 35%;
     font-weight: 600;
+}
+.information-wrapp{
+    background-image: url("./img/news-background.jpg");
+    display: flex;
+    padding: 3% 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 250px;
+}
+.information-wrapp2 {
+    background-image: url("./img/world-background.jpg");
+    display: flex;
+    padding: 3% 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 250px;
+}
+.information-wrapp3 {
+    background-image: url("\./img/game-background.jpg");
+    display: flex;
+    padding: 3% 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 250px;
+}
+.information-wrapp h1{
+    color: var(--main-yellow);
+    font-family: 'Cinzel', serif;
+    letter-spacing: 10px; 
+    font-weight: 700; 
+    border-bottom: 2px solid var(--main-yellow);
+}
+.information-wrapp p{
+    color: var(--main-white);
+    font-family: 'Montserrat', sans-serif;
+    width: 35%;
+    font-weight: 600;
+    padding: 15px;
+}
+.information-wrapp2 h1{
+    font-family: 'Cinzel', serif;
+    letter-spacing: 10px; 
+    font-weight: 700; 
+    border-bottom: 2px solid var(--main-yellow);
+}
+.information-wrapp2 p{
+    color: var(--main-white);
+    font-family: 'Montserrat', sans-serif;
+    width: 35%;
+    font-weight: 600;
+    padding: 15px;
+}
+.information-wrapp3 h1{
+    font-family: 'Cinzel', serif;
+    letter-spacing: 10px; 
+    font-weight: 700; 
+    border-bottom: 2px solid var(--main-yellow);
+}
+.information-wrapp3 p{
+    color: var(--main-white);
+    font-family: 'Montserrat', sans-serif;
+    width: 35%;
+    font-weight: 600;
+    padding: 15px;
+}
+.bottom-footer {
+    color: var(--main-yellow);
+    font-family: 'Cinzel', serif;
+    letter-spacing: 5px; 
+    font-weight: 700; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 250px;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    border-bottom: 3px solid var(--main-yellow);
+}
+.footer-bot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-icons{
+    color: var(--main-white);
+    display: flex;
+    margin: 50px 10px;
+    font-size: 40px;
+}
+.footer-icons:hover{
+    color: var(--main-yellow);
+}
+.footer-support{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-logos{
+ margin: 8px;
+ padding: 5px;
+}
+/* .footer-logos img { */
+    /* width: 150px; */
+    /* height: 120px; */
+/* } */
+.img-size-sm{
+    width: 40px;
+    height: 60px;
+}
+.img-size-md{
+    width: 50px;
+    height: 60px;
+}
+.img-size-lg{
+    width: 180px;
+    height: 120px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
 }
